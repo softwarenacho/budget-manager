@@ -1,0 +1,39 @@
+{
+  "name": "budget-manager",
+  "version": "1.0.0",
+  "description": "https://codeburst.io/building-a-budget-manager-with-vue-js-and-node-js-part-i-f3d7311822a8",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softwarenacho/budget-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/softwarenacho/budget-manager/issues"
+  },
+  "homepage": "https://github.com/softwarenacho/budget-manager",
+  "_moduleAliases": {
+    "@root": ".",
+    "@BudgetManager": "./services/BudgetManagerAPI",
+    "@BudgetManagerModels": "./services/BudgetManagerAPI/app/models",
+    "@BudgetManagerAPI": "./services/BudgetManagerAPI/config/app.js",
+    "@config": "./services/BudgetManagerAPI/config/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "module-alias": "^2.0.6",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
